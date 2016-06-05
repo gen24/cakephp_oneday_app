@@ -1,0 +1,11 @@
+2016-06-05 08:00:43 Error: [MissingActionException] Action PostsController::ad() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'ad',
+)
+Request URL: /onedayBlog2/oneday_blog/Posts/ad
+Stack Trace:
+#0 /Applications/MAMP/htdocs/onedayBlog2/oneday_blog/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/onedayBlog2/oneday_blog/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/onedayBlog2/oneday_blog/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
